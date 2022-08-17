@@ -28,7 +28,7 @@ const Home: NextPage = () =>
   { 
     e.preventDefault()
     console.log('Form submitted')
-    e.target.reset()
+    // e.target.reset()
   }
   return (
     <div className={styles.container}>

@@ -27,7 +27,7 @@ function Signin(props: Props) {
     { 
         e.preventDefault()
         console.log('Form submitted')
-        e.target.reset()
+        // e.target.reset()
     }
 
     return (
